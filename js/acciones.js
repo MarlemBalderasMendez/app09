@@ -22,7 +22,7 @@ $(document).ready(function(e) {
 	}
 	//Detiene la observacion de la aceleracion
 	
-	function Detener(){
+	function Detente(){
 		if (watchID){
 			navigator .accelerometer.clearWatch (watchID);
 			watchID=null;
